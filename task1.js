@@ -17,3 +17,5 @@ function stringLengthFrequency(strings) {
       typeof str === "string" && countFrequency[str.length] === maxFrequency,
   );
 }
+
+module.exports = { stringLengthFrequency };
